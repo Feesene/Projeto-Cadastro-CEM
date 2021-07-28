@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica,sans-serif;
+	border: none;
+	color: #323232;
+}
+body{
+	padding-top: 30vh;
+	background-image: url('../IMG/pf1.jpg');
+	background-size: cover;
+	background-position-y: -150px;
+}
+#main2{
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffae00;
+	border-radius: 10px;
+	padding: 30px;
+	border: 1px solid #323232;
+}
+label {
+	color: FFF;
+		border-style: bolder;
+	}
+
+input{
+	padding: 10px;
+	font-weight: bold;
+	font-size: .9rem;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border-radius: 5px;}
+
+	input[type=submit]{
+	background-color: #000080;
+	color: #FFF;
+	border: none;
+	border-radius: 20px;
+	height: 40px;
+	cursor: pointer;
+}
